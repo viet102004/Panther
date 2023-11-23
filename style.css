@@ -1,0 +1,151 @@
+
+.content p{
+    margin: 10px 0 40px;
+    font-size: 18px;
+}
+.content p em{
+    font-size: normal;
+    color: yellow;
+}
+.content a{
+    text-decoration: none;
+    color: #bbe8fc;
+    font-size: 20px;
+    border: 2px;
+    padding: 10px 40px;
+    border-radius: 40px;
+    font-weight: 500;
+    transition: 0.3 all;
+}
+.content a:hover{
+    background-color: #ddd;
+    color: #000;
+}
+.login{
+    width: 450px;
+    margin-left: 150px;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+.header .lg{
+    font-size: 2em;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700px;
+}
+.header .lg i{
+    margin-right: 10px;
+    color: skyblue;
+}
+.header .lg span{
+    color: aqua;
+}
+.header .nav a{
+    position: relative;
+    font-size: 1.2em;
+    color: #7ed6fb;
+    text-decoration: none;
+    margin-left: 40px;
+    font-weight: 600;
+}
+.login .input-box{
+    width: 100%;
+    height: 50px;
+    position: relative;
+    padding: 40px 0;
+}
+.login .input-box input{
+    width: 100%;
+    height: 50px;
+    border: 2px solid #7ed6fb;
+    border-radius: 40px;
+    background: transparent;
+    outline: none;
+    color: #fff;
+    padding: 0px 20px;
+    font-size: 18px;
+}
+::placeholder{
+    color: #e0f3fe;
+    font-size: 15px;
+}
+.login .input-box span i{
+    position: absolute;
+    top: 55px;
+    font-size: 1.3em;
+    color: #e0f3fe;
+    right: 25px;
+}
+.login .remember-forgot{
+    color: #e0f3feff;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+    margin: 25px 0 15px;
+}
+.header .nav a::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    background-color: #ff6633;
+    width: 100%;
+    height: 3px;
+    bottom: -6px;
+    transform: scalex(0);
+    transition: 0.3s;
+}
+.header .nav a:hover::after{
+    transform: scalex(1);
+}
+section{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://img2.thuthuatphanmem.vn/uploads/2019/01/19/hinh-anh-mau-den-4k-3840x2160_030503266.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    padding: 80px 200px 0;
+    align-items: center;
+}
+section .content{
+    color: #fff;
+    max-width: 600px;
+    margin: 30px;
+}
+.login .remember-forgot a:hover{
+    text-decoration: underline;
+}
+button{
+    width: 100%;
+    height: 50px;
+    border: 2px solid #10aae7;
+    background-color: #10aae7;
+    border-radius: 50px;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 800;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+button:hover{
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+.login .register-link{
+    display: flex;
+    justify-content: space-between;
+}
+.login .register-link p{
+    color: #10aae7;
+}
